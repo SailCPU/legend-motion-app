@@ -1,4 +1,3 @@
-# Legend Motion App - 可穿戴开源硬件平台项目
 
 ## 项目概述
 
