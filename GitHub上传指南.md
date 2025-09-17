@@ -25,7 +25,7 @@
 cd "/Users/sail/Library/Mobile Documents/iCloud~md~obsidian/Documents/MyKnowledgeBase/projects/Legend Motion App"
 
 # 添加远程仓库
-git remote add origin https://github.com/YOUR_USERNAME/legend-motion-app.git
+git remote add origin https://github.com/sailcpu/legend-motion-app.git
 
 # 推送到GitHub
 git branch -M main
@@ -101,4 +101,4 @@ Legend Motion App - 可穿戴运动监测项目，从原型到正式产品的完
 
 ---
 
-**注意**: 请将上述命令中的 `YOUR_USERNAME` 替换为你的实际GitHub用户名。
+**注意**: 已使用你的GitHub用户名 `sailcpu` 配置完成。

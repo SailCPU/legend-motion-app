@@ -22,6 +22,8 @@ python app.py
 ```
 Legend Motion App/
 ├── README.md                    # 项目总览
+├── images/                      # 项目图片资源
+│   └── README.md               # 图片说明文档
 ├── 01-项目文档/                  # 项目文档和说明
 │   └── 可穿戴开源硬件平台项目.md
 ├── 02-原型代码/                  # 最小集原型代码
@@ -32,12 +34,9 @@ Legend Motion App/
 │       ├── requirements.txt
 │       └── README.md
 ├── 03-硬件资料/                  # 硬件相关文档
-│   ├── ESP32开发指南.md
-│   ├── 传感器选型指南.md
-│   └── 电路设计文档.md
+│   └── ESP32开发指南.md
 ├── 04-学习资源/                  # 学习资料和教程
 │   ├── Flutter学习路径.md
-│   ├── 硬件开发教程.md
 │   └── 项目开发日志.md
 └── 05-设计文件/                  # 设计图和架构图
     └── ZSWatch-Flutter架构图.drawio.svg
@@ -88,6 +87,16 @@ Legend Motion App/
 - **前端**: Flutter + Dart
 - **后端**: Node.js + Firebase
 - **数据库**: MongoDB
+
+## 🖼️ 图片资源
+
+项目文档中的图片已更新为GitHub兼容格式：
+
+- **Flora开发板**: ![Adafruit Flora](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/images/flora.jpg)
+- **ZSWatch**: ![ZSWatch](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/images/zswatch.png)
+- **架构图**: ![ZSWatch + Flutter 架构图](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/05-设计文件/ZSWatch-Flutter架构图.drawio.svg)
+
+> **注意**: 如需添加图片，请参考 `images/README.md` 中的说明。
 
 ## 📚 学习资源
 
