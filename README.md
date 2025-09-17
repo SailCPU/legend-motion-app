@@ -1,0 +1,88 @@
+# Legend Motion App
+
+## 📁 项目结构
+
+```
+Legend Motion App/
+├── README.md                    # 项目总览
+├── 01-项目文档/                  # 项目文档和说明
+│   └── 可穿戴开源硬件平台项目.md
+├── 02-原型代码/                  # 最小集原型代码
+│   └── prototype/
+│       ├── index.html
+│       ├── css/style.css
+│       ├── python/app.py
+│       ├── requirements.txt
+│       └── README.md
+├── 03-硬件资料/                  # 硬件相关文档
+│   ├── ESP32开发指南.md
+│   ├── 传感器选型指南.md
+│   └── 电路设计文档.md
+├── 04-学习资源/                  # 学习资料和教程
+│   ├── Flutter学习路径.md
+│   ├── 硬件开发教程.md
+│   └── 项目开发日志.md
+└── 05-设计文件/                  # 设计图和架构图
+    └── ZSWatch-Flutter架构图.drawio.svg
+```
+
+## 🎯 项目目标
+
+为Legend开发一个运动类APP，需要与硬件传感器关联，考虑到可操作性和后期维护。
+
+## 🚀 快速开始
+
+### 第一阶段：最小集原型 (1-2周)
+1. 进入 `02-原型代码/prototype/` 目录
+2. 按照README.md的说明运行项目
+3. 访问 http://localhost:5000 查看效果
+
+### 第二阶段：硬件集成 (2-3周)
+1. 参考 `03-硬件资料/` 中的文档
+2. 购买ESP32开发板和传感器
+3. 集成真实硬件数据
+
+### 第三阶段：正式开发 (3-4周)
+1. 参考 `01-项目文档/` 中的架构设计
+2. 使用 `04-学习资源/` 学习Flutter
+3. 迁移到ZSWatch + Flutter架构
+
+## 📋 开发计划
+
+- [ ] **第1周**: 完成最小集原型开发
+- [ ] **第2周**: 硬件集成和测试
+- [ ] **第3周**: UI优化和功能完善
+- [ ] **第4周**: 移动端适配
+- [ ] **第5周**: 开始Flutter迁移
+- [ ] **第6周**: ZSWatch硬件集成
+- [ ] **第7周**: 云服务部署
+- [ ] **第8周**: 测试和优化
+
+## 💡 技术栈
+
+### 原型阶段
+- **硬件**: ESP32开发板 + 传感器
+- **前端**: HTML + CSS + JavaScript
+- **后端**: Python Flask
+- **数据库**: SQLite
+
+### 正式阶段
+- **硬件**: ZSWatch智能手表
+- **前端**: Flutter + Dart
+- **后端**: Node.js + Firebase
+- **数据库**: MongoDB
+
+## 📚 学习资源
+
+- [Flutter官方文档](https://flutter.dev/docs)
+- [ZSWatch项目](https://zswatch.dev/)
+- [ESP32开发指南](https://docs.espressif.com/projects/esp-idf/)
+- [Python Flask教程](https://flask.palletsprojects.com/)
+
+## 🤝 贡献指南
+
+欢迎提交Issue和Pull Request来改进这个项目！
+
+## 📄 许可证
+
+MIT License

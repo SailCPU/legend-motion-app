@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend Motion App - 运动监测原型</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏃‍♂️ Legend Motion App</h1>
+            <div class="status" id="connection-status">未连接</div>
+        </header>
+        
+        <!-- 实时数据显示 -->
+        <section class="sensor-data">
+            <div class="data-card">
+                <div class="icon">❤️</div>
+                <h3>心率</h3>
+                <div class="value" id="heart-rate">--</div>
+                <div class="unit">BPM</div>
+            </div>
+            <div class="data-card">
+                <div class="icon">👣</div>
+                <h3>步数</h3>
+                <div class="value" id="step-count">--</div>
+                <div class="unit">步</div>
+            </div>
+            <div class="data-card">
+                <div class="icon">🔥</div>
+                <h3>卡路里</h3>
+                <div class="value" id="calories">--</div>
+                <div class="unit">kcal</div>
+            </div>
+            <div class="data-card">
+                <div class="icon">📊</div>
+                <h3>活动强度</h3>
+                <div class="value" id="activity-level">--</div>
+                <div class="unit">级</div>
+            </div>
+        </section>
+        
+        <!-- 图表区域 -->
+        <section class="charts">
+            <div class="chart-container">
+                <h3>心率趋势</h3>
+                <canvas id="heartRateChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>步数统计</h3>
+                <canvas id="stepChart"></canvas>
+            </div>
+        </section>
+        
+        <!-- 控制按钮 -->
+        <section class="controls">
+            <button id="start-btn" class="btn btn-primary">开始监测</button>
+            <button id="stop-btn" class="btn btn-secondary" disabled>停止监测</button>
+            <button id="export-btn" class="btn btn-success">导出数据</button>
+            <button id="clear-btn" class="btn btn-warning">清除数据</button>
+        </section>
+        
+        <!-- 数据历史 -->
+        <section class="data-history">
+            <h3>最近数据</h3>
+            <div class="history-table">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>时间</th>
+                            <th>心率</th>
+                            <th>步数</th>
+                            <th>卡路里</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-tbody">
+                        <tr>
+                            <td colspan="4" class="no-data">暂无数据</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    
+    <!-- 加载提示 -->
+    <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>正在连接设备...</p>
+    </div>
+    
+    <!-- 消息提示 -->
+    <div id="message" class="message hidden"></div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/websocket.js"></script>
+</body>
+</html>
