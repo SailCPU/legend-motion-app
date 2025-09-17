@@ -1,5 +1,22 @@
 # Legend Motion App
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev/)
+[![ESP32](https://img.shields.io/badge/ESP32-Compatible-green.svg)](https://www.espressif.com/)
+
+> 一个完整的可穿戴运动监测项目，从最小集原型到正式产品的开发方案
+
+## 🚀 快速开始
+
+### 运行原型
+```bash
+cd "02-原型代码/prototype/python"
+pip install -r requirements.txt
+python app.py
+```
+访问: http://localhost:5000
+
 ## 📁 项目结构
 
 ```
