@@ -41,14 +41,28 @@ git push origin main
 
 在Markdown文件中使用以下格式引用图片：
 
+### 相对路径（推荐）
+```markdown
+![图片描述](images/图片文件名)
+```
+
+### 从子文件夹引用
+```markdown
+![图片描述](../images/图片文件名)
+```
+
+### GitHub绝对路径（备选）
 ```markdown
 ![图片描述](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/images/图片文件名)
 ```
 
+## 📋 已添加的图片
+
+- [x] `flora.jpg` - Adafruit Flora开发板
+- [x] `zswatch.png` - ZSWatch智能手表
+
 ## 📋 待添加的图片
 
-- [ ] `flora.jpg` - Adafruit Flora开发板
-- [ ] `zswatch.png` - ZSWatch智能手表
 - [ ] `esp32.jpg` - ESP32开发板
 - [ ] `prototype-screenshot.png` - 原型界面截图
 

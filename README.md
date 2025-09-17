@@ -92,9 +92,9 @@ Legend Motion App/
 
 项目文档中的图片已更新为GitHub兼容格式：
 
-- **Flora开发板**: ![Adafruit Flora](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/images/flora.jpg)
-- **ZSWatch**: ![ZSWatch](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/images/zswatch.png)
-- **架构图**: ![ZSWatch + Flutter 架构图](https://raw.githubusercontent.com/SailCPU/legend-motion-app/main/05-设计文件/ZSWatch-Flutter架构图.drawio.svg)
+- **Flora开发板**: ![Adafruit Flora](images/flora.jpg)
+- **ZSWatch**: ![ZSWatch](images/zswatch.png)
+- **架构图**: ![ZSWatch + Flutter 架构图](05-设计文件/ZSWatch-Flutter架构图.drawio.svg)
 
 > **注意**: 如需添加图片，请参考 `images/README.md` 中的说明。
 
